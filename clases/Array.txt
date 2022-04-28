@@ -1,0 +1,115 @@
+Array
+(
+    [detalles] => Array
+        (
+            [id] => 18F92751YL111700R
+            [intent] => CAPTURE
+            [status] => COMPLETED
+            [purchase_units] => Array
+                (
+                    [0] => Array
+                        (
+                            [reference_id] => default
+                            [amount] => Array
+                                (
+                                    [currency_code] => MXN
+                                    [value] => 3539.10
+                                )
+
+                            [payee] => Array
+                                (
+                                    [email_address] => sb-ihfwf14186092@business.example.com
+                                    [merchant_id] => DYQXEZ8N8RLRG
+                                )
+
+                            [soft_descriptor] => PAYPAL *TEST STORE
+                            [shipping] => Array
+                                (
+                                    [name] => Array
+                                        (
+                                            [full_name] => John Doe
+                                        )
+
+                                    [address] => Array
+                                        (
+                                            [address_line_1] => Calle Juarez 1
+                                            [address_line_2] => Col. Cuauhtemoc
+                                            [admin_area_2] => Miguel Hidalgo
+                                            [admin_area_1] => Ciudad de Mexico
+                                            [postal_code] => 11580
+                                            [country_code] => MX
+                                        )
+
+                                )
+
+                            [payments] => Array
+                                (
+                                    [captures] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 91B83621UE219534S
+                                                    [status] => COMPLETED
+                                                    [amount] => Array
+                                                        (
+                                                            [currency_code] => MXN
+                                                            [value] => 3539.10
+                                                        )
+
+                                                    [final_capture] => 1
+                                                    [seller_protection] => Array
+                                                        (
+                                                            [status] => ELIGIBLE
+                                                            [dispute_categories] => Array
+                                                                (
+                                                                    [0] => ITEM_NOT_RECEIVED
+                                                                    [1] => UNAUTHORIZED_TRANSACTION
+                                                                )
+
+                                                        )
+
+                                                    [create_time] => 2022-04-24T15:14:36Z
+                                                    [update_time] => 2022-04-24T15:14:36Z
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => Array
+                (
+                    [name] => Array
+                        (
+                            [given_name] => John
+                            [surname] => Doe
+                        )
+
+                    [email_address] => sb-43yhvc12492165@personal.example.com
+                    [payer_id] => C4QSUQD44F7V4
+                    [address] => Array
+                        (
+                            [country_code] => MX
+                        )
+
+                )
+
+            [create_time] => 2022-04-24T15:14:04Z
+            [update_time] => 2022-04-24T15:14:36Z
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/18F92751YL111700R
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                )
+
+        )
+
+)
